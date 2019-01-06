@@ -9,6 +9,6 @@ var string8 = "csviralityresponsivewebdesignecosystemcrowdsourcebuyerinfrastruct
 var string9 = "emiumresponsivewebdesignstartupfoundersleanstartupsocialproofanalyticsbrandingbusinessincubatorhypothesesstockhandshakeentrepreneurhypothesesbrandingagiledevelopmentresearchanddevelopmentfocusearlyad";
 var string10 = "optersscrumprojectbetatermsheetvalidationvaluepropositionfundingstealthstartupstockpitchparadigmshiftalphastrategyventurenichemarketassetsadvisordeploymentchannelshypothesesstockholygrailstealthboots";
 var string11 = "trapingmonetization";
-if (window.location.href  === "http://localhost/adpage/ads.html") {
+if (window.location.href  === "https://nickflores73.github.io/adpage/ads.html") {
   window.history.pushState("string", "Title", "http://localhost/adpage/ads.html?" + string1 + string2 + string3 + string4 + string5 + string6 + string7 + string8 + string9  + string10 + string11);
 }
