@@ -1,11 +1,61 @@
-.adds {
-  background-color: red;
+.adbody {
+  background-color: white;
+}
+
+.logocont {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.logoimg {
+  width: 15vw;
+  padding: 1rem;
+}
+
+table {
+  color: white;
+  height: 70vh;
+  width: 70vw;
+  text-align: center;
+  margin: 0 auto;
+  font-family: sans-serif;
+  font-weight: 1000;
+  font-size: 2.5rem;
+  border-spacing: 3vw;
+}
+
+td {
+  background-color: black;
 }
 
 body {
   margin: 0;
   padding: 0;
   background: #ccc;
+}
+
+.footer {
+  margin: 0 auto;
+  width: 50vw;
+  text-align: center;
+}
+
+.footertxt {
+  color: black;
+  font-family: sans-serif;
+  font-weight: 1000;
+}
+
+.counter {
+  padding-top: 1rem;
+}
+
+.counterfill {
+    font-family: sans-serif;
+    background-color: #b3b3b2;
+    font-weight: 1000;
+    padding: 0.5rem 6rem;
+    font-size: 1.5rem;
 }
 
 .nav ul {
