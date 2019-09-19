@@ -1,0 +1,112 @@
+html, body {
+  background-color: #979cbf;
+  margin:0;
+  padding:0;
+  overflow:hidden
+}
+
+svg, svg * {
+  pointer-events: none;
+}
+
+svg {
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  height:100vh;
+  width:100vw;
+  position: fixed;
+}
+
+.svg_container {
+  position: absolute;
+  height: 16vh;
+  width: 52.5vw;
+  text-align: center;
+}
+path {
+  stroke: #e0cd98;
+  fill:none;
+  pointer-events:all;
+}
+
+.about_svg:hover, .works_svg:hover, .contact_svg:hover, .home_svg:hover {
+  filter: drop-shadow(2px 4px 6px black);
+}
+
+.path1 {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 2.5s linear alternate forwards;
+  stroke-linecap: round;
+  stroke-width: 10px;
+}
+
+.path2 {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 3s linear alternate forwards;
+  animation-delay: 0.5s;
+  stroke-linecap: round;
+  stroke-width: 10px;
+}
+
+.path3 {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 3s linear alternate forwards;
+  animation-delay: 1.0s;
+  stroke-linecap: round;
+  stroke-width: 10px;
+}
+
+.path4 {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 3s linear alternate forwards;
+  animation-delay: 1.5s;
+  stroke-linecap: round;
+  stroke-width: 10px;
+}
+
+.path5 {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 5s linear alternate forwards;
+  animation-delay: 0.7s;
+  stroke-linecap: round;
+  stroke-width: 3px;
+}
+
+.path6 {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 5s linear alternate forwards;
+  animation-delay: 1.2s;
+  stroke-linecap: round;
+  stroke-width: 3px;
+}
+
+.path7 {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 5s linear alternate forwards;
+  animation-delay: 1.7s;
+  stroke-linecap: round;
+  stroke-width: 3px;
+}
+
+.path8 {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 5s linear alternate forwards;
+  animation-delay: 2.0s;
+  stroke-linecap: round;
+  stroke-width: 3px;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
