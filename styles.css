@@ -1,8 +1,12 @@
 html, body {
-  background-color: #979cbf;
+  background-color: #bdbdbd !important;
   margin:0;
   padding:0;
-  overflow:hidden
+  overflow:hidden;
+  font-family: monospace !important;
+  font-size: 1.5rem !important;
+  font-weight: 700;
+  color: black !important;
 }
 
 svg, svg * {
@@ -25,7 +29,7 @@ svg {
   text-align: center;
 }
 path {
-  stroke: #e0cd98;
+  stroke: black;
   fill:none;
   pointer-events:all;
 }
@@ -113,8 +117,37 @@ path {
   stroke-width: 3px;
 }
 
+.geared {
+  margin-top: 30vh;
+  margin-left: 20vw;
+  transform: scale(0,0);
+  transition: all 1.5s ease;
+  transition-delay: 2.5s;
+  width: 256px;
+  background-color: #bdbdbd;
+  z-index: 999;
+}
+
+.roto { 
+  transition: all  0.5s ease;
+}
+
+.roto:hover {
+  transform: rotate(90deg);
+}
+
+.textpop {
+  transition: all 0.5s ease;
+  width: 45vw;
+  position: absolute;
+  top: 35vh;
+  left: 20vw;
+  margin: 0 auto;
+  opacity: 0;
+  z-index: -1;
+}
+
 @keyframes dash {
   to {
     stroke-dashoffset: 0;
   }
-}
