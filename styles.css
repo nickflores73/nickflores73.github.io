@@ -2,7 +2,6 @@ html, body {
   background-color: #bdbdbd !important;
   margin:0;
   padding:0;
-  overflow:hidden;
   font-family: monospace !important;
   font-size: 1.5rem !important;
   font-weight: 700;
@@ -23,10 +22,10 @@ svg {
 }
 
 .svg_container {
-  position: absolute;
-  height: 16vh;
-  width: 52.5vw;
-  text-align: center;
+  position: relative;
+  height: 21vh;
+  margin: 0 auto;
+  width: 71vw;
 }
 path {
   stroke: black;
@@ -34,7 +33,7 @@ path {
   pointer-events:all;
 }
 
-.about_svg:hover, .works_svg:hover, .contact_svg:hover, .home_svg:hover {
+.about_svg:hover, .works_svg:hover, .contact_svg:hover, .home_svg:hover, .homepath:hover {
   filter: drop-shadow(2px 4px 6px black);
 }
 
@@ -118,22 +117,18 @@ path {
 }
 
 .geared {
-  margin-top: 30vh;
-  margin-left: 20vw;
+  padding-top: 4rem;
+  margin-left: 10vw;
   transform: scale(0,0);
   transition: all 1.5s ease;
   transition-delay: 2.5s;
   width: 256px;
-  background-color: #bdbdbd;
   z-index: 999;
 }
 
-.roto { 
+.roto {
+  width: 256px;
   transition: all  0.5s ease;
-}
-
-.roto:hover {
-  transform: rotate(90deg);
 }
 
 .textpop {
@@ -141,10 +136,50 @@ path {
   width: 45vw;
   position: absolute;
   top: 35vh;
-  left: 20vw;
+  left: 30vw;
   margin: 0 auto;
   opacity: 0;
   z-index: -1;
+}
+
+.anchor {
+  transition: all 0.5s ease;
+  position: absolute;
+  width: 256px;
+  right: 10vw;
+}
+
+.hammered {
+  transform: scale(0,0);
+  transition: all 1.5s ease;
+  transition-delay: 3.0s;
+  width: 256px;
+  z-index: 999;
+  float: right;
+}
+
+.textpoop {
+  transition: all 0.5s ease;
+  width: 47vw;
+  position: absolute;
+  top: 83vh;
+  right: 12vw;
+  margin: 0 auto;
+  opacity: 0;
+  z-index: -1;
+}
+
+.home_svg {
+  position: relative;
+  height: 21vh;
+  margin: 0 auto;
+  width: 71vw;
+}
+
+.leggyboy {
+  width: 30vw;
+  margin: 0 auto;
+  padding-top: 6rem;
 }
 
 @keyframes dash {
