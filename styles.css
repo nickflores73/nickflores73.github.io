@@ -23,7 +23,7 @@ svg {
 
 .svg_container {
   position: relative;
-  height: 21vh;
+  height: 25vh;
   margin: 0 auto;
   width: 71vw;
 }
@@ -133,18 +133,18 @@ path {
 
 .textpop {
   transition: all 0.5s ease;
-  width: 45vw;
-  position: absolute;
   top: 35vh;
   left: 30vw;
+  position: absolute;
+  width: 45vw;
   margin: 0 auto;
   opacity: 0;
   z-index: -1;
 }
 
 .anchor {
-  transition: all 0.5s ease;
   position: absolute;
+  transition: all 0.5s ease;
   width: 256px;
   right: 10vw;
 }
@@ -161,25 +161,42 @@ path {
 .textpoop {
   transition: all 0.5s ease;
   width: 47vw;
-  position: absolute;
-  top: 83vh;
   right: 12vw;
+  top: 83vh;
   margin: 0 auto;
   opacity: 0;
   z-index: -1;
+  position: absolute;
+}
+
+.gh {
+  padding-top: 20vh;
+  width: 17vw;
+  min-width: 200px;
+}
+
+.home {
+  height: 8rem;
 }
 
 .home_svg {
-  position: relative;
   height: 21vh;
   margin: 0 auto;
   width: 71vw;
 }
 
-.leggyboy {
-  width: 30vw;
-  margin: 0 auto;
-  padding-top: 6rem;
+.exp-circle, .LR-circle, .LRN-circle {
+  filter: blur(3px);
+  width: 6vw;
+  transition: all 0.3s ease;
+}
+
+.col-md-4 {
+
+}
+
+.exp-circle:hover, .LR-circle:hover {
+  filter: none;
 }
 
 @keyframes dash {
